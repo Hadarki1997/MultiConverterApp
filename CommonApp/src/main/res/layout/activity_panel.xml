@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_PanelBase">
+
+    <LinearLayout
+        android:id="@+id/upper_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/upperText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Upper Section"
+            android:textColor="#ffffff"
+            android:textSize="34sp"
+            android:fontFamily="@font/robotomono_thin" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/middle_section"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/numberInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Enter number"
+            android:fontFamily="@font/robotomono_thin"
+            android:inputType="numberDecimal"
+            android:padding="0dp"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="100dp"
+            android:background="@android:color/white" />
+
+        <Spinner
+            android:id="@+id/unitSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:padding="25dp"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/swapButton"
+            android:layout_width="62dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_swap"
+            android:contentDescription="@string/swap_units" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/numberOutput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/robotomono_thin"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="36sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="100dp"
+            android:background="#000000" />
+
+        <Spinner
+            android:id="@+id/unitSpinnerLower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:padding="25dp"
+            android:textColor="@android:color/transparent" />
+    </LinearLayout>
+
+</LinearLayout>

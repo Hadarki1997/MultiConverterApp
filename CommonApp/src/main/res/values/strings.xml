@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Conversion Calculator</string>
+    <string name="unit_size_title">Enter Units Size in Inches</string>
+    <string name="app_title" tools:ignore="ExtraTranslation">Weight Converter</string>
+    <string name="swap_units">Swap Units</string>
+    <string name="length_conversion">Length Conversion</string>
+    <string name="weight_conversion">Weight Conversion</string>
+</resources>
