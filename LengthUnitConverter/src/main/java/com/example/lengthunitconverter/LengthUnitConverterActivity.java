@@ -65,12 +65,8 @@ public class LengthUnitConverterActivity extends Activity_PanelBase {
 
     @Override
     protected void setUpperText() {
-        try {
-            upperText.setText("Length Conversion");
-            Log.d(TAG, "Upper text set to 'Length Conversion'");
-        } catch (Exception e) {
-            Log.e(TAG, "Error setting upper text", e);
-        }
+    upperText.setText("Length Converter");
+
     }
 
     @Override

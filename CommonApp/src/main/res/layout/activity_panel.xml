@@ -52,7 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_gravity="center"
-            android:layout_marginHorizontal="100dp"
+            android:layout_marginHorizontal="50dp"
             android:background="@android:color/white" />
 
         <Spinner
@@ -96,7 +96,7 @@
             android:id="@+id/numberOutput"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_margin="8dp"
             android:fontFamily="@font/robotomono_thin"
             android:text=""
             android:textColor="@color/black"
