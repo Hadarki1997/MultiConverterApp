@@ -1,4 +1,5 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/root_layout"
     android:layout_width="match_parent"
@@ -70,13 +71,16 @@
         android:gravity="center"
         android:background="@color/white">
 
-        <Button
+        <ImageButton
             android:id="@+id/swapButton"
-            android:layout_width="62dp"
-            android:layout_height="59dp"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
             android:layout_gravity="center"
-            android:background="@drawable/ic_swap"
-            android:contentDescription="@string/swap_units" />
+            android:src="@drawable/ic_swap"
+            android:contentDescription="@string/swap_units"
+            android:background="@null"/>
+
+
 
     </LinearLayout>
 

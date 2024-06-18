@@ -7,7 +7,14 @@
         <item name="colorOnPrimary">@color/white</item>
         <item name="colorSecondary">@color/colorAccent</item>
         <item name="colorOnSecondary">@color/white</item>
-        <item name="android:statusBarColor" tools:targetApi="l">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="buttonStyle">@style/MyButtonStyle</item>
+    </style>
+
+    <style name="MyButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">16dp</item>
     </style>
 
 </resources>
